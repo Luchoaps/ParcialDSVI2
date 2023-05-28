@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fiesta"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="Bienvenidos a la Party!!!"
+        android:textSize="32dp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnogout"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button_rounded"
+        android:textColor="@color/black"
+        android:onClick="Logout"
+        android:text="logaut"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>

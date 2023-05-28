@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fiesta"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1F618D "
+        android:fontFamily="@font/lastingsketch"
+        android:gravity="center"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:text="Ingrese sus datos"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold|italic" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+
+
+        <ImageView
+            android:id="@+id/imagenViewEvento"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginButton="20dp"
+            app:srcCompat="@drawable/descarga4" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtNombreEvento1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="@font/lastingsketch"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="italic"
+                android:text="Haga Click para asistir" />
+
+            <Button
+                android:id="@+id/btnHacerClick1"
+                android:layout_width="336dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_rounded"
+                android:textColor="@color/black"
+                android:onClick="Click1"
+                android:text="Click"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imagenViewEvento"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginButton="20dp"
+            app:srcCompat="@drawable/descarga2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtNombreEvento2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="@font/lastingsketch"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="italic"
+                android:text="Haga Click para asistir" />
+
+            <Button
+                android:id="@+id/btnHacerClick2"
+                android:layout_width="336dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_rounded"
+                android:textColor="@color/black"
+                android:onClick="Click1"
+                android:text="Click"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imagenViewEvento"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginButton="20dp"
+            app:srcCompat="@drawable/descarga3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtNombreEvento3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="@font/lastingsketch"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="italic"
+                android:text="Haga Click para asistir" />
+
+            <Button
+                android:id="@+id/btnHacerClick3"
+                android:layout_width="336dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_rounded"
+                android:textColor="@color/black"
+                android:onClick="Click1"
+                android:text="Click"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+        </LinearLayout
+
+</LinearLayout>
